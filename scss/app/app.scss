@@ -1,0 +1,10 @@
+@import '../variables/variables.scss';
+
+div > p {
+    font-size: $font-14;
+    color: green;
+}
+
+.testing{
+   color: red; 
+}
