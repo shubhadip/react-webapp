@@ -5,7 +5,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const {dependencies} = require('./package.json');
 
 const VENDOR_LIBS = [];
-
 Object.entries(dependencies).forEach(([key, value]) => {
   VENDOR_LIBS.push(key);
 });

@@ -8,20 +8,20 @@ class Header extends Component {
   renderLinks() {
     if (this.props.authenticated) {
       return ([
-        <li className='nav-item right'>
-          <Link className='nav-link' to={'signout'} key={ 'signout' }>Sign Out</Link>
+        <li className='nav-item right' key={ 'signout' }>
+          <Link className='nav-link' to={'signout'}>Sign Out</Link>
         </li>,
-        <li>
-          <Link className='nav-link' to={'about'} key={ 'about' }>About</Link>
+        <li key={ 'about' }>
+          <Link className='nav-link' to={'about'}>About</Link>
         </li>,
-        <li>
-          <Link className='nav-link' to={'service'} key={ 'service' }>Service</Link>
+        <li key={ 'service' }>
+          <Link className='nav-link' to={'service'}>Service</Link>
         </li>,
-        <li>
-          <Link className='nav-link' to={'feature'} key={ 'feature' }>Feature</Link>
+        <li key={ 'feature' }>
+          <Link className='nav-link' to={'feature'}>Feature</Link>
         </li>,
-        <li>
-          <Link className='nav-link' to={'Foo'} key={ 'foo' }>Foo</Link>
+        <li key={ 'foo' }>
+          <Link className='nav-link' to={'Foo'}>Foo</Link>
         </li>
       ]);
     } else {
