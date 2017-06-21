@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 import styles from '../../scss/header/header.scss';
 
 class Header extends Component {
@@ -9,28 +10,28 @@ class Header extends Component {
     if (this.props.authenticated) {
       return ([
         <li className='nav-item right' key={ 'signout' }>
-          <Link className='nav-link' to={'signout'}>Sign Out</Link>
+          <Link className='nav-link' to={ 'signout' }>Sign Out</Link>
         </li>,
         <li key={ 'about' }>
-          <Link className='nav-link' to={'about'}>About</Link>
+          <Link className='nav-link' to={ 'about' }>About</Link>
         </li>,
         <li key={ 'service' }>
-          <Link className='nav-link' to={'service'}>Service</Link>
+          <Link className='nav-link' to={ 'service' }>Service</Link>
         </li>,
         <li key={ 'feature' }>
-          <Link className='nav-link' to={'feature'}>Feature</Link>
+          <Link className='nav-link' to={ 'feature' }>Feature</Link>
         </li>,
         <li key={ 'foo' }>
-          <Link className='nav-link' to={'Foo'}>Foo</Link>
-        </li>
+          <Link className='nav-link' to={ 'Foo' }>Foo</Link>
+        </li>,
       ]);
     } else {
       return ([
         <li className='nav-item' key={ 'signin' }>
-          <Link className='nav-link' to={'/signin'} >Sign In</Link>
+          <Link className='nav-link' to={ '/signin' } >Sign In</Link>
         </li>,
         <li className='nav-item' key={ 'signup' }>
-          <Link className='nav-link' to={'/signup'} >Sign Up</Link>
+          <Link className='nav-link' to={ '/signup' } >Sign Up</Link>
         </li>,
       ]);
     }
@@ -66,4 +67,13 @@ function mapStateToProps(state) {
     authenticated: state.auth.authenticated,
   };
 }
+
+Header.defaultProps = {
+  authenticated: false,
+};
+
+Header.propTypes = {
+  authenticated: PropTypes.bool.isRequired,
+};
+
 export default connect(mapStateToProps)(Header);
