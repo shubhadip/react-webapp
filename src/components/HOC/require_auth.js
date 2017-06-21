@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import AsyncComponent from '../code_split/async_component';
+import AsyncComponent from '../HOC/async_component';
 
 export default function(ComposedComponent) {
   class Authentication extends Component {

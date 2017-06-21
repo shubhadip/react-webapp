@@ -9,7 +9,7 @@ const rootReducer = combineReducers({
   form: formReducer, // form just once for es6 magic
   auth: authReducer,
   admin: adminReducer,
-  toastr: toastrReducer
+  toastr: toastrReducer,
 });
 
 export default rootReducer;

@@ -1,28 +1,29 @@
 import React, { Component } from 'react';
 import { reduxForm, Field } from 'redux-form';
 import { connect } from 'react-redux';
-import { signinUser } from '../../actions/index';
 import _ from 'lodash';
+import PropTypes from 'prop-types';
+import { signinUser } from '../../actions/index';
 import styles from '../../../scss/signin/signin.scss';
 
-var FIELDS = {
+const FIELDS = {
   email: {
     type: 'input',
     label: 'Email',
-    name:'email',
-    type_property:'text'
+    name: 'email',
+    type_property: 'text',
   },
   password: {
     type: 'input',
     label: 'Password',
     name: 'password',
-    type_property:'password'
-  }
+    type_property: 'password',
+  },
 };
 
 class Signin extends Component {
 
-  handleFormSubmit({email, password}) {
+  handleFormSubmit({ email, password }) {
     // Need to do something to log user in
     this.props.signinUser({ email, password });
   }
@@ -35,7 +36,7 @@ class Signin extends Component {
       <div className={ className }>
         <label htmlFor={ field.data.label }>{field.data.label}</label>
         <field.data.type
-          type={field.data.type_property}
+          type={ field.data.type_property }
           className='form-control'
           { ...field.input }
         />
@@ -46,17 +47,24 @@ class Signin extends Component {
     );
   }
 
-  renderFields(){
-    return _.map(FIELDS,(field)=>{
+  renderFields() {
+    return _.map(FIELDS, (field) => {
       return (
-          <Field data={field} name={field.name} key={field.name} component={ this.renderTextField }/>
-        )
+        <Field
+          data={ field }
+          name={ field.name }
+          key={ field.name }
+          component={ this.renderTextField }
+        />
+      );
     });
   }
 
   renderError() {
-    if (this.props.errorMessage){
+    if (this.props.errorMessage) {
       return <div className='alert alert-danger'>{this.props.errorMessage}</div>;
+    } else {
+      return '';
     }
   }
 
@@ -65,7 +73,7 @@ class Signin extends Component {
 
     return (
       <div className='container'>
-        <form onSubmit={ handleSubmit(this.handleFormSubmit.bind(this))}>
+        <form onSubmit={ handleSubmit(this.handleFormSubmit.bind(this)) }>
           {this.renderFields()}
           {this.renderError()}
           <button type='submit' className='btn btn-sm btn-primary'>SignIn</button>
@@ -78,12 +86,12 @@ class Signin extends Component {
 function validate(values) {
   const errors = {};
 
-  _.each(FIELDS, (type, field)=>{
-    if(!values[field]){
-      errors[field] = `Enter ${field}`
+  _.each(FIELDS, (type, field) => {
+    if (!values[field]) {
+      errors[field] = `Enter ${field}`;
     }
   });
-  
+
   return errors;
 }
 
@@ -93,8 +101,16 @@ function mapStateToProps(state) {
   };
 }
 
+Signin.defaultProps = {
+  signinUser: () => { return { ...{}, authenticated: false }; },
+};
+
+Signin.propTypes = {
+  signinUser: PropTypes.func.isRequired,
+};
+
 export default reduxForm({
   validate,
   form: 'signin',
-  fields: _.keys(FIELDS)
+  fields: _.keys(FIELDS),
 })(connect(mapStateToProps, { signinUser })(Signin));
