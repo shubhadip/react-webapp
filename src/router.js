@@ -9,6 +9,8 @@ import Signin from './components/auth/signin';
 import Signout from './components/auth/signout';
 import Signup from './components/auth/signup';
 
+const NotFound = () =>{ return <div>Not Found</div>};
+
 const Routes = () => {
   return (<Router history={ history }>
     <div>
@@ -20,9 +22,10 @@ const Routes = () => {
         <Route path='/signup' component={ Signup } />
         <Route path='/service' component={ Service } />
         <Route path='/about' component={ About } />
-        <Route path='/foo' component={ (Foo) } />
-        <Route path='/welcome' component={ (Welcome) } />
-        <Route exact path='/' component={ App } />
+        <Route path="/foo" component={ (Foo) } />
+        <Route path="/welcome" component={ (Welcome) } /> 
+        <Route exact path="/" component={App}/>
+        <Route path="*" component={NotFound}/>
       </Switch>
     </div>
   </Router>);

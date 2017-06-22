@@ -1,32 +1,62 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import ReactDOM from 'react-dom';
+import Modal from 'react-modal';
 
-const Headline = ({ title }) => {
-  return <h1 className='title'>{title}</h1>;
-};
+// import Modal from './modal';
 
-const Greeting = ({ name, age }) => {
-  return <h1 className='title'>Welcome {name} {age}</h1>;
-};
+class Foo extends Component {
+  constructor(){
+    super();
 
-export default class Foo extends Component {
+    this.state = {
+      modalIsOpen: false
+    };
 
-  render() {
-    return (
-      <div>
-        <Headline title='PropTypes' />
-        <Greeting name='shubhadip' age={ 25 } />
-      </div>
-    );
+    this.openModal = this.openModal.bind(this);
+    this.afterOpenModal = this.afterOpenModal.bind(this);
+    this.closeModal = this.closeModal.bind(this);
   }
+
+  openModal() {
+    this.setState({modalIsOpen: true});
+  }
+
+  afterOpenModal() {
+    // references are now sync'd and can be accessed.
+    this.subtitle.style.color = '#f00';
+  }
+
+  closeModal() {
+    this.setState({modalIsOpen: false});
+  }
+
+  render(){
+    return (
+        <div>
+          <button onClick={this.openModal}>Open Modal</button>
+          <Modal
+          isOpen={this.state.modalIsOpen}
+          onAfterOpen={this.afterOpenModal}
+          onRequestClose={this.closeModal}
+          style={customStyles}
+          contentLabel="Example Modal"
+        >
+
+          <h2 ref={subtitle => this.subtitle = subtitle}>Hello</h2>
+          <button onClick={this.closeModal}>close</button>
+          <div>I am a modal</div>
+          <form>
+            <input />
+            <button>tab navigation</button>
+            <button>stays</button>
+            <button>inside</button>
+            <button>the modal</button>
+          </form>
+        </Modal>
+          <div>This is Sample</div>
+        </div>
+      ) 
+  };
 }
 
-Greeting.propTypes = {
-  name: PropTypes.string.isRequired,
-  age: PropTypes.number.isRequired,
-};
-
-Headline.propTypes = {
-  title: PropTypes.string.isRequired,
-};
-
+export default Foo;
