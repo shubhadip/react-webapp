@@ -55,7 +55,7 @@ const ProductTag = ({ data }) => {
           <br /> E-mail:care@bewakoof.com
         </p>
         <div style={ { display: 'block', width: '100%', marginLeft: '5px', letterSpacing: '0.1em' } }>
-          <Barcode value={ data.barcode } height={ 49 } />
+          <Barcode value={ data.barcode } height={ 49 } />,
         </div>
       </div>
     </div>

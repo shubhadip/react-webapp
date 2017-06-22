@@ -87,4 +87,3 @@ function mapStateToProps(state) {
 export default reduxForm({
   form: 'barcodeScan',
 })(connect(mapStateToProps, { getBarcodeDetails })(Service));
-

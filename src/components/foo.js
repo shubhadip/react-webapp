@@ -1,3 +1,32 @@
-import React from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-export default () => <div className="text-warning" style={{'fontWeight':600,'fontSize':'25px','textAlign':'center'}}>Foo</div>;
+const Headline = ({ title }) => {
+  return <h1 className='title'>{title}</h1>;
+};
+
+const Greeting = ({ name, age }) => {
+  return <h1 className='title'>Welcome {name} {age}</h1>;
+};
+
+export default class Foo extends Component {
+
+  render() {
+    return (
+      <div>
+        <Headline title='PropTypes' />
+        <Greeting name='shubhadip' age={ 25 } />
+      </div>
+    );
+  }
+}
+
+Greeting.propTypes = {
+  name: PropTypes.string.isRequired,
+  age: PropTypes.number.isRequired,
+};
+
+Headline.propTypes = {
+  title: PropTypes.string.isRequired,
+};
+
