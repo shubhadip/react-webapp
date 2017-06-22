@@ -4,8 +4,7 @@ import Barcode from 'react-barcode';
 import dateFormat from 'dateformat';
 
 const now = new Date();
-const rest = dateFormat(now, "dd-mm-yyyy H:m:s");
-console.log(rest);
+const rest = dateFormat(now, 'dd-mm-yyyy');
 
 const ProductTag = ({ data }) => {
   return (
@@ -15,15 +14,15 @@ const ProductTag = ({ data }) => {
           <span style={ { fontFamily: 'arial', fontWeight: 'bold', textAlign: 'left', fontSize: '17px', width: '100%' } }>Bewakoof Lifestyle</span>
         </div>
         <div id='first_row' style={ { display: 'block', fontSize: '13px', width: '100%' } }>
-          <div>{ data.product_name }</div>
+          <div>{ data.products.name }</div>
         </div>
         <div id='second_row' style={ { display: 'block', fontSize: '13px', marginTop: '1px', width: '100%' } }>
-          <div style={ { fontFamily: 'arial', fontSize: '13px', display: 'block' } }>{ data.category_name }</div>
+          <div style={ { fontFamily: 'arial', fontSize: '13px', display: 'block' } }>{ data.products.categories.name }</div>
         </div>
         <div id='third_row' style={ { display: 'inline-block', fontSize: '13px', marginTop: '1px', width: '100%' } }>
           <div style={ { display: 'block', fontSize: '13px', float: 'left' } }>
             <span style={ { fontFamily: 'arial' } }>M.R.P.:Rs. </span>
-            <span style={ { fontFamily: 'arial', fontWeight: 'bold', fontSize: '15px' } }>{ data.price }
+            <span style={ { fontFamily: 'arial', fontWeight: 'bold', fontSize: '15px' } }>{ data.products.mrp }
               <span style={ { fontSize: '7px', fontFamily: 'arial', fontWeight: '600' } }>(Incl. of all taxes)</span>
             </span>
           </div>
@@ -35,13 +34,13 @@ const ProductTag = ({ data }) => {
         <div id='fourth_row' style={ { display: 'block', fontSize: '13px', width: '100%', marginTop: '1px' } }>
           <div style={ { display: 'block', fontSize: '13px' } }>
             <span style={ { fontFamily: 'arial' } }>Size : </span>
-            <span style={ { fontFamily: 'arial', fontWeight: 'bold', fontSize: '15px' } } >{ data.size }</span>
+            <span style={ { fontFamily: 'arial', fontWeight: 'bold', fontSize: '15px' } } >{ data.size_name }</span>
           </div>
         </div>
         <div id='fifth_row' style={ { display: 'block', fontSize: '13px', width: '100%', marginTop: '1px' } }>
           <div style={ { display: 'inline-block', fontSize: '12px' } }>
             <span style={ { fontFamily: 'arial', display: 'inline-block' } }>Color : </span>
-            <span style={ { fontFamily: 'arial', fontWeight: 'bold', fontSize: '13px', display: 'inline-block' } } >{ data.color }</span>
+            <span style={ { fontFamily: 'arial', fontWeight: 'bold', fontSize: '13px', display: 'inline-block' } } >{ data.products.color.name }</span>
           </div>
           <div style={ { fontSize: '13px', marginLeft: '10px', display: 'inline-block' } } >
             <span style={ { fontFamily: 'arial', display: 'inline-block' } }>Qty : </span>
@@ -63,13 +62,26 @@ const ProductTag = ({ data }) => {
   );
 };
 
+// ProductTag.defaultProps = {
+//   data: PropTypes.shape({
+//     product_name: 'Testing',
+//     category_name: 'Testing',
+//     color: 'Testing',
+//     size: 'Testing',
+//     price: 999,
+//     barcode: 'B9999999',
+//   }),
+// };
 
-ProductTag.defaultProps = {
-  data: PropTypes.object,
-};
-
-ProductTag.propTypes = {
-  data: PropTypes.object.isRequired,
-};
+// ProductTag.propTypes = {
+//   data: PropTypes.shape({
+//     product_name: PropTypes.string.isRequired,
+//     category_name: PropTypes.string.isRequired,
+//     color: PropTypes.string.isRequired,
+//     size: PropTypes.string.isRequired,
+//     price: PropTypes.number.isRequired,
+//     barcode: PropTypes.string.isRequired,
+//   }),
+// };
 
 export default ProductTag;

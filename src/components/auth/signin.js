@@ -85,7 +85,6 @@ class Signin extends Component {
 
 function validate(values) {
   const errors = {};
-
   _.each(FIELDS, (type, field) => {
     if (!values[field]) {
       errors[field] = `Enter ${field}`;

@@ -11,7 +11,6 @@ import { getFromCookie } from './credentials/access_credentials';
 import Routes from './router';
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-
 const middlewares = [ReduxThunk];
 
 if (process.env.NODE_ENV === `development`) {
