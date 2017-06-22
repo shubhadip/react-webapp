@@ -1,4 +1,5 @@
 import axios from 'axios';
+<<<<<<< Updated upstream
 import React from 'react';
 import history from '../history.js';
 import { AUTH_USER, AUTH_ERROR, LOGOUT_USER, FETCH_ADMIN_USERS, UPDATE_ADMIN_USERS_STATUS, HIGHLIGHT_ADMIN_USERS_STATUS } from './types';
@@ -122,3 +123,29 @@ export function highlightAdminStatus({id, status}){
 }
 
 
+=======
+import { toastr } from 'react-redux-toastr';
+import { API_TOKEN } from '../constants/constants';
+import { authError, signupUser, signinUser, signoutUser } from './auth_actions';
+import { fetchMessage, updateAdminStatus, highlightAdminStatus } from './admin_actions';
+
+axios.defaults.headers.common.api_token = API_TOKEN;
+
+axios.interceptors.response.use((response) => {
+  return response;
+}, (error) => {
+  if ([500, 501, 502, 503, 503].indexOf(error.response.status) > -1) {
+    toastr.warning('Something went wrong try again later ...');
+  }
+  return Promise.reject(error);
+});
+
+export { authError };
+export { signupUser };
+export { signoutUser };
+export { signinUser };
+
+export { fetchMessage };
+export { updateAdminStatus };
+export { highlightAdminStatus };
+>>>>>>> Stashed changes

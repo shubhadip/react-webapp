@@ -12,7 +12,13 @@ import { getFromCookie } from './credentials/access_credentials';
 import Routes from './router';
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-const middlewares = [ReduxThunk,logger];
+const middlewares = [ReduxThunk];
+
+if (process.env.NODE_ENV === `development`) {
+  const { logger } = require(`redux-logger`);
+  middlewares.push(logger);
+}
+
 const createStoreWithMiddleware = composeEnhancers(applyMiddleware(...middlewares))(createStore);
 const store = createStoreWithMiddleware(reducers);
 const token = getFromCookie('token');

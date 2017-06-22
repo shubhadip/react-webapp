@@ -47,9 +47,7 @@ class Header extends Component {
 
             <div className='collapse navbar-collapse' id='bs-example-navbar-collapse-1'>
               <ul className='nav navbar-nav'>
-                <li className='active'><NavLink to='/'>Home <span className='sr-only'>
-                (current)
-                </span></NavLink></li>
+                <li className='active'><NavLink to='/'>Home</NavLink></li>
                 {this.renderLinks()}
               </ul>
             </div>
