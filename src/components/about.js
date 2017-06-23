@@ -1,38 +1,14 @@
 import React, { Component } from 'react';
-import Menu from './slidingMenu/menu';
-import MenuItem from './slidingMenu/menuItem';
 
 class About extends Component {
-
   constructor() {
     super();
-  }
-
-  showLeft() {
-    this.refs.left.show();
-  }
-
-  showRight() {
-    this.refs.right.show();
   }
 
   render() {
     return (
         <div>
-          <button onClick={ this.showLeft }>Show Left Menu!</button>
-          <button onClick={ this.showRight }>Show Right Menu!</button>
-
-          <Menu ref='left' alignment='left'>
-            <MenuItem hash='first-page'>First Page</MenuItem>
-            <MenuItem hash='second-page'>Second Page</MenuItem>
-            <MenuItem hash='third-page'>Third Page</MenuItem>
-          </Menu>
-
-          <Menu ref='right' alignment='right'>
-            <MenuItem hash='first-page'>First Page</MenuItem>
-            <MenuItem hash='second-page'>Second Page</MenuItem>
-            <MenuItem hash='third-page'>Third Page</MenuItem>
-          </Menu>
+          This is About Page
         </div>
       )
   }
