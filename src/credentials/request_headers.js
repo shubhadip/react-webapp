@@ -2,7 +2,7 @@ import { JSON_CONTENT_TYPE } from '../constants/constants';
 import { getAccessToken } from './access_credentials';
 
 export function addAccessToken(config) {
-  config.headers.access_token = getAccessToken();
+  config.headers['Access-Token'] = getAccessToken();
   return config;
 }
 

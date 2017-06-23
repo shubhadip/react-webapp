@@ -33,7 +33,7 @@ class Signin extends Component {
     const className = `form-group ${touched && error ? 'has-danger' : ' '} `;
 
     return (
-      <div className={ className }>
+      <div className={ className } style={ { padding: '10px'} }>
         <label htmlFor={ field.data.label }>{field.data.label}</label>
         <field.data.type
           type={ field.data.type_property }
@@ -72,7 +72,7 @@ class Signin extends Component {
     const { handleSubmit } = this.props;
 
     return (
-      <div className='container'>
+      <div className='container' style={ { marginTop: '10%', padding: '20px' } }>
         <form onSubmit={ handleSubmit(this.handleFormSubmit.bind(this)) }>
           {this.renderFields()}
           {this.renderError()}

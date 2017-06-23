@@ -27,7 +27,9 @@ class Feature extends Component {
           <td>{admin_user.email}</td>
           <td>{admin_user.designation}</td>
           <td>{admin_user.department}</td>
-          <td>{admin_user.enable ? 'Enabled' : 'Disabled'}</td>
+          <td>{admin_user.enable ? 'Enabled' : 'Disabled' }</td>
+          <td>{admin_user.can_login ? 'True' : 'False' }</td>
+          <td>{admin_user.can_sales_login ? 'True' : 'False' }</td>
           <td>
             <button
               className='btn btn-info'
@@ -62,7 +64,9 @@ class Feature extends Component {
                 <th>Email</th>
                 <th>Designation</th>
                 <th>Department</th>
-                <th>Status</th>
+                <th>enable</th>
+                <th>can_login</th>
+                <th>can_sales_login</th>
                 <th>Remove</th>
                 <th>Hightlight</th>
               </tr>

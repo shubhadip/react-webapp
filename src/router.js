@@ -17,15 +17,14 @@ const Routes = () => {
       <Header />
       <Switch>
         <Route path='/signin' component={ Signin } />
-        <Route path='/feature' component={ (Feature) } />
         <Route path='/signout' component={ Signout } />
         <Route path='/signup' component={ Signup } />
+        <Route exact path='/' component={ App } />
+        <Route path='/feature' component={ (Feature) } />
         <Route path='/service' component={ Service } />
         <Route path='/about' component={ About } />
-        <Route path="/foo" component={ (Foo) } />
-        <Route path="/welcome" component={ (Welcome) } /> 
-        <Route exact path="/" component={App}/>
-        <Route path="*" component={NotFound}/>
+        <Route path='/foo' component={ (Foo) } />
+        <Route path='*' component={ NotFound } />
       </Switch>
     </div>
   </Router>);
