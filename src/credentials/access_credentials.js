@@ -18,7 +18,7 @@ export function saveAccessCredentials(values) {
   setCookie('token', values.token);
   setCookie('name', values.first_name);
   const accessToken = Base64.encode(`${values.token.trim()}:${values.email.trim()}`);
-  setCookie('access_token', accessToken);
+  setCookie('Access-Token', accessToken);
 }
 
 export function getToken() {
@@ -26,7 +26,7 @@ export function getToken() {
 }
 
 export function getAccessToken() {
-  return getFromCookie('access_token');
+  return getFromCookie('Access-Token');
 }
 
 export function getEmail() {
@@ -37,6 +37,6 @@ export function deleteToken() {
   const cookies = new Cookies();
   cookies.remove('token');
   cookies.remove('email');
-  cookies.remove('access_token');
+  cookies.remove('Access-Token');
   cookies.remove('name');
 }

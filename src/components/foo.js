@@ -1,15 +1,30 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import { connect } from 'react-redux';
+import { Button } from 'react-bootstrap';
 import Modal from 'react-modal';
+import _ from 'lodash';
+import { getOrderStatuses } from '../actions/index';
 
-// import Modal from './modal';
+
+const customStyles = {
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    minWidth: '400px',
+    transform: 'translate(-50%, -50%)',
+  },
+};
 
 class Foo extends Component {
-  constructor(){
+  constructor() {
     super();
 
     this.state = {
-      modalIsOpen: false
+      modalIsOpen: false,
+      selectedStatus: '',
     };
 
     this.openModal = this.openModal.bind(this);
@@ -18,45 +33,71 @@ class Foo extends Component {
   }
 
   openModal() {
-    this.setState({modalIsOpen: true});
+    this.setState({ modalIsOpen: true });
   }
 
   afterOpenModal() {
     // references are now sync'd and can be accessed.
+    this.props.getOrderStatuses();
     this.subtitle.style.color = '#f00';
   }
 
   closeModal() {
-    this.setState({modalIsOpen: false});
+    this.setState({ modalIsOpen: false });
   }
 
-  render(){
-    return (
-        <div>
-          <button onClick={this.openModal}>Open Modal</button>
-          <Modal
-          isOpen={this.state.modalIsOpen}
-          onAfterOpen={this.afterOpenModal}
-          onRequestClose={this.closeModal}
-          style={customStyles}
-          contentLabel="Example Modal"
-        >
+  handleChange = (event) => {
+    this.setState({ selectedStatus: event.target.value });
+    this.closeModal();
+  }
 
-          <h2 ref={subtitle => this.subtitle = subtitle}>Hello</h2>
-          <button onClick={this.closeModal}>close</button>
+  renderOptions() {
+    return _.map(this.props.statuses, (status) => {
+      return (
+        <option key={ status } value={ status }>{status}</option>
+      );
+    });
+  }
+
+  render() {
+    return (
+      <div>
+        {this.state.selectedStatus}
+        <Button bsStyle='info' onClick={ this.openModal }>Open Modal</Button>
+        <Modal
+          isOpen={ this.state.modalIsOpen }
+          onAfterOpen={ this.afterOpenModal }
+          onRequestClose={ this.closeModal }
+          style={ customStyles }
+          contentLabel='Example Modal'
+        >
+          <h2 ref={ subtitle => this.subtitle = subtitle }>Hello</h2>
+          <button onClick={ this.closeModal }>close</button>
           <div>I am a modal</div>
-          <form>
-            <input />
-            <button>tab navigation</button>
-            <button>stays</button>
-            <button>inside</button>
-            <button>the modal</button>
+          <form className='form-group'>
+            <label htmlFor='formControlsSelect' className='control-label'>Select</label>
+            <select
+              placeholder='select'
+              id='formControlsSelect'
+              className='form-control'
+              value={ this.state.selectedStatus }
+              onChange={ this.handleChange }
+            >
+              <option key='select status' value='select status'>Select Status</option>
+              {this.renderOptions()}
+            </select>
           </form>
         </Modal>
-          <div>This is Sample</div>
-        </div>
-      ) 
+        <div>This is Sample</div>
+      </div>
+    );
+  }
+}
+
+function mapStateToProps(state) {
+  return {
+    statuses: state.orders.statuses.status,
   };
 }
 
-export default Foo;
+export default connect(mapStateToProps, { getOrderStatuses })(Foo);

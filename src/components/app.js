@@ -6,6 +6,7 @@ export default class App extends Component {
 /* {this.props.children} Not Required AnyMore */
 // className={styles.app}
   render() {
+  console.log("test");   
     return (
       <div>
         <Welcome />

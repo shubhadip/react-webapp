@@ -1,3 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default () => <div className="text-warning" style={{'fontWeight':600,'fontSize':'25px','textAlign':'center'}}>About</div>;
+class About extends Component {
+  constructor() {
+    super();
+  }
+
+  render() {
+    return (
+        <div>
+          This is About Page
+        </div>
+      )
+  }
+}
+
+export default About;
