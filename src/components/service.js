@@ -4,12 +4,13 @@ import { toastr } from 'react-redux-toastr';
 import { connect } from 'react-redux';
 import ProductTag from './dummy_components/product_tag';
 import { getBarcodeDetails } from '../actions/barcode_actions';
+import { barcodeToPsid } from '../helpers/productHelper'
 
 class Service extends Component {
 
   handleFormSubmit = ({barcode}) => {
     if (barcode) {
-      const id = 1234;
+      const id = barcodeToPsid(barcode);
       this.props.getBarcodeDetails({ id }, (error,response) => {
         this.props.reset();
         this.print();

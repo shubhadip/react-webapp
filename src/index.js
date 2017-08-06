@@ -1,41 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
-import ReduxThunk from 'redux-thunk';
-import ReduxToastr from 'react-redux-toastr';
+import { AppContainer } from 'react-hot-loader';
+import App from './components/app';
 
-import reducers from './reducers';
-import { AUTH_USER } from './actions/types';
-import { getFromCookie } from './credentials/access_credentials';
-import Routes from './router';
-
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
-const middlewares = [ReduxThunk];
-
-if (process.env.NODE_ENV === `development`) {
-  const { logger } = require(`redux-logger`);
-  middlewares.push(logger);
-}
-
-const createStoreWithMiddleware = composeEnhancers(applyMiddleware(...middlewares))(createStore);
-const store = createStoreWithMiddleware(reducers);
-const token = getFromCookie('token');
-
-if (token) {
-  store.dispatch({ type: AUTH_USER });
-}
-
-ReactDOM.render(
-  <Provider store={ store } >
-    <div>
-      <Routes />
-      <ReduxToastr
-        newestOnTop={false}
-        preventDuplicates
-        position="bottom-center"
-        transitionIn="fadeIn"
-        transitionOut="fadeOut"/>
-      </div>
-  </Provider>
+function render(Component) {
+  ReactDOM.render(
+    <AppContainer>
+      <Component />
+    </AppContainer>
   , document.querySelector('.top'));
+}
+
+if (module.hot) {
+  module.hot.accept('./components/app', () => {
+    const NextApp = require('./components/app').default;
+
+    ReactDOM.render(
+      <AppContainer>
+        <NextApp />
+      </AppContainer>,
+      document.querySelector('.top'),
+      );
+  });
+}
+render(App);

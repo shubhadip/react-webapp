@@ -82,6 +82,7 @@ class Feature extends Component {
 }
 
 function mapStateToProps(state) {
+  console.log(state);
   return {
     admin_users: state.admin.all,
   };

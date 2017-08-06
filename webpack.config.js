@@ -11,6 +11,7 @@ Object.entries(dependencies).forEach(([key, value]) => {
 
 config = {
   entry:{
+    hot_loader: 'react-hot-loader/patch',
     bundle: './src/index.js',
     vendor: VENDOR_LIBS
   },

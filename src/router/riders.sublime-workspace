@@ -1,0 +1,1886 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"comm",
+				"community\t(static.rb)"
+			],
+			[
+				"payment",
+				"payment_numbers\t(static.rb)"
+			],
+			[
+				"contac",
+				"contact_us\t(static.yml)"
+			],
+			[
+				"contact",
+				"contact_us"
+			],
+			[
+				"terms",
+				"terms_and_conditions\t(static.rb)"
+			],
+			[
+				"event",
+				"event_title"
+			],
+			[
+				"curre",
+				"current_user.reload"
+			],
+			[
+				"his",
+				"Historical"
+			],
+			[
+				"spiri",
+				"spiritual"
+			],
+			[
+				"eve",
+				"event_type"
+			],
+			[
+				"user",
+				"user_event_registrations"
+			],
+			[
+				"create",
+				"created_at\t(orders_controller.rb)"
+			],
+			[
+				"user_eve",
+				"user_event_registrations\t(user_event_registrations_controller.rb)"
+			],
+			[
+				"User",
+				"UserEventRegistration"
+			],
+			[
+				"se",
+				"self\t(static.rb)"
+			],
+			[
+				"lcat",
+				"location"
+			],
+			[
+				"cons",
+				"constructor"
+			],
+			[
+				"admin",
+				"admin_users"
+			],
+			[
+				"fet",
+				"fetchMessage"
+			],
+			[
+				"fetch",
+				"fetchData"
+			],
+			[
+				"props",
+				"propsName"
+			],
+			[
+				"adm",
+				"admin_users\t(about.js)"
+			],
+			[
+				"W",
+				"WrappedComponent"
+			],
+			[
+				"admn",
+				"admin_users"
+			],
+			[
+				"en",
+				"enhance"
+			],
+			[
+				"map",
+				"mapStateToProps"
+			],
+			[
+				"LOa",
+				"LoaderHOC"
+			],
+			[
+				"Loa",
+				"LoaderHOC"
+			],
+			[
+				"LO",
+				"LoaderHOC"
+			],
+			[
+				"sign",
+				"signoutUser"
+			],
+			[
+				"ti",
+				"this"
+			],
+			[
+				"clas",
+				"className\t(service.js)"
+			],
+			[
+				"close",
+				"closeModal"
+			],
+			[
+				"get",
+				"getOrderStatuses"
+			],
+			[
+				"ORDER",
+				"ORDER_STATUS_URL"
+			],
+			[
+				"can",
+				"can_sales_login"
+			],
+			[
+				"ENa",
+				"enable"
+			],
+			[
+				"const",
+				"constructor\t(modal.js)"
+			],
+			[
+				"Reac",
+				"ReactDOM\t(modal.js)"
+			],
+			[
+				"modal",
+				"modalTarget"
+			],
+			[
+				"cl",
+				"className\t(service.js)"
+			],
+			[
+				"auth",
+				"auth_actions"
+			],
+			[
+				"react-",
+				"react-redux-toastr\t(service.js)"
+			],
+			[
+				"render",
+				"renderFields\t(signin.js)"
+			],
+			[
+				"cw",
+				"cwr\tReact: componentWillReceiveProps: fn(np) { ... }"
+			],
+			[
+				"rest",
+				"resetForm"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"handle",
+				"handleFormSubmit"
+			],
+			[
+				"p",
+				"props"
+			],
+			[
+				"prev",
+				"prevState"
+			],
+			[
+				"ha",
+				"handleFormSubmit"
+			],
+			[
+				"compo",
+				"component"
+			],
+			[
+				"print",
+				"printContents"
+			],
+			[
+				"nex",
+				"nextProps"
+			],
+			[
+				"barcode",
+				"barcodeData"
+			],
+			[
+				"getBar",
+				"getBarcodeData"
+			],
+			[
+				"bar",
+				"barcodeData"
+			],
+			[
+				"ac",
+				"actions\t(auth_reducer.js)"
+			],
+			[
+				"si",
+				"signoutUser"
+			],
+			[
+				"action",
+				"actions"
+			],
+			[
+				"Pro",
+				"propTypes"
+			],
+			[
+				"date",
+				"dateformat"
+			],
+			[
+				"pic",
+				"price\t(service.js)"
+			],
+			[
+				"Data",
+				"DATA"
+			],
+			[
+				"Product",
+				"ProductTag"
+			],
+			[
+				"Produ",
+				"ProductTag"
+			],
+			[
+				"sty",
+				"style='height:100px"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"signin",
+				"signinUser"
+			],
+			[
+				"defa",
+				"defaultProps\t(header.js)"
+			],
+			[
+				"err",
+				"errorMessage"
+			],
+			[
+				"is",
+				"isRequired\t(header.js)"
+			],
+			[
+				"prop",
+				"propTypes\t(header.js)"
+			],
+			[
+				"proces",
+				"process.env.NODE_ENV\t(package.json)"
+			],
+			[
+				"process",
+				"process.env.NODE_ENV"
+			],
+			[
+				"coni",
+				"confirm_password"
+			],
+			[
+				"rnder",
+				"renderFields"
+			],
+			[
+				"fiel",
+				"fieldConfig"
+			],
+			[
+				"type",
+				"type_property='text"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"import",
+				"import_calls"
+			],
+			[
+				"impor",
+				"importCalls"
+			],
+			[
+				"com",
+				"component"
+			],
+			[
+				"Compo",
+				"ComposedComponent"
+			],
+			[
+				"co",
+				"ComposedComponent"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"free",
+				"freebie_team\t(notify_admin_mailer.rb)"
+			],
+			[
+				"freb",
+				"freebie_id"
+			],
+			[
+				"data",
+				"dataset"
+			],
+			[
+				"category",
+				"category_id),count"
+			],
+			[
+				"fabr",
+				"fabric_by_type"
+			],
+			[
+				"cate",
+				"category_operation_id"
+			],
+			[
+				"category_operaio",
+				"category_operation"
+			],
+			[
+				"fabrci",
+				"fabric_production_reports"
+			],
+			[
+				"qua",
+				"quantity\t(index.json.jbuilder)"
+			],
+			[
+				"dsig",
+				"design_details"
+			],
+			[
+				"col-",
+				"col-md-12"
+			],
+			[
+				"design",
+				"design_details"
+			],
+			[
+				"field_name",
+				"field_name:'id"
+			],
+			[
+				"field",
+				"field_name\t(product-details.js)"
+			],
+			[
+				"category_oper",
+				"category_operation_id"
+			],
+			[
+				"erro",
+				"errorField"
+			],
+			[
+				"produc",
+				"product_params"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"angu",
+				"angular.forEach"
+			],
+			[
+				"ajo",
+				"ajio_eancodes"
+			],
+			[
+				"log",
+				"log_statement"
+			],
+			[
+				"chec",
+				"checkbox\t(stock-up.html)"
+			],
+			[
+				"categor",
+				"category_id"
+			],
+			[
+				"purchas",
+				"purchase_order"
+			],
+			[
+				"purchae",
+				"purchase_order"
+			],
+			[
+				"time",
+				"timelineWrapper"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"ca",
+				"category\t(config.js)"
+			],
+			[
+				"purc",
+				"purchase_order_product"
+			],
+			[
+				"prod",
+				"product"
+			],
+			[
+				"tax",
+				"tax_amount"
+			],
+			[
+				"Order",
+				"Ordersobj"
+			],
+			[
+				"qty",
+				"qty_pressing"
+			],
+			[
+				"categ",
+				"category_operations"
+			],
+			[
+				"barcod",
+				"barcode_changed"
+			],
+			[
+				"purch",
+				"purchase_order_product_id"
+			],
+			[
+				"purhcase",
+				"purchase_order_product_id"
+			],
+			[
+				"Purchase",
+				"PurchaseOrderProductBundle"
+			],
+			[
+				"bund",
+				"bundle_number"
+			],
+			[
+				"po",
+				"popb_id\t(purchase-order-product-bundle.js)"
+			],
+			[
+				"bundle",
+				"bundle_number\t(purchase-order-product-bundle.js)"
+			],
+			[
+				"purchase",
+				"purchase_order_id"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/shubhadipmaity/riders/riders_app/app/models/static.rb",
+			"settings":
+			{
+				"buffer_size": 5167,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/shubhadipmaity/riders/riders_app/config/static.yml",
+			"settings":
+			{
+				"buffer_size": 33467,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/shubhadipmaity/riders/riders_app/config/application.rb",
+			"settings":
+			{
+				"buffer_size": 3193,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/shubhadipmaity/Desktop/scss_to_css/react_app/webpack.config.js",
+			"settings":
+			{
+				"buffer_size": 1360,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/shubhadipmaity/riders/riders_app/app/controllers/v1/statics_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1083,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/shubhadipmaity/riders/riders_app/app/views/v1/users/show.json.jbuilder",
+			"settings":
+			{
+				"buffer_size": 612,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/shubhadipmaity/riders/riders_app/app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 3488,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "Package Control: insta",
+		"selected_items":
+		[
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: e",
+				"Package Control: Install Package"
+			],
+			[
+				"indentatio",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"indenta",
+				"Indexing Status"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app"
+	],
+	"file_history":
+	[
+		"/Users/shubhadipmaity/riders/riders_app/config/static.yml",
+		"/Users/shubhadipmaity/typescript/tsconfig.json",
+		"/Users/shubhadipmaity/Desktop/Rails_Setup/setup.txt",
+		"/Users/shubhadipmaity/riders/riders_app/app/models/static.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/controllers/concerns/authentication_module.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/controllers/v1/authentication_controller.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/models/concerns/authentication.rb",
+		"/Users/shubhadipmaity/riders/riders_app/config/routes.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/controllers/v1/statics_controller.rb",
+		"/Users/shubhadipmaity/riders/riders_app/config/application.rb",
+		"/Users/shubhadipmaity/riders/riders_app/config/secrets.yml",
+		"/Users/shubhadipmaity/riders/riders_app/app/views/v1/events/show.json.jbuilder",
+		"/Users/shubhadipmaity/riders/riders_app/app/controllers/v1/user_event_registrations_controller.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/views/v1/user_event_registrations/create.json.jbuilder",
+		"/Users/shubhadipmaity/riders/riders_app/app/models/user_event_registration.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/controllers/api_controller.rb",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/components/service.js",
+		"/Users/shubhadipmaity/riders/riders_app/app/models/event.rb",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/components/welcome.js",
+		"/Users/shubhadipmaity/riders/riders_app/config/environments/production.rb",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/actions/barcode_actions.js",
+		"/Users/shubhadipmaity/riders/riders_app/config/database.yml",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/components/HOC/require_auth.js",
+		"/Users/shubhadipmaity/riders/riders_app/app/controllers/v1/admin/events_controller.rb",
+		"/Users/shubhadipmaity/Desktop/Rails_Setup/redis_setup.txt",
+		"/Users/shubhadipmaity/riders/riders_app/app/controllers/v1/users_controller.rb",
+		"/Users/shubhadipmaity/Desktop/Rails_Setup/githooks.txt",
+		"/Users/shubhadipmaity/Desktop/Rails_Setup/nginx_setup.txt",
+		"/Users/shubhadipmaity/Desktop/Rails_Setup/change_ssh_port.txt",
+		"/Users/shubhadipmaity/riders/riders_app/db/migrate/20170705190722_create_events.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/views/v1/users/show.json.jbuilder",
+		"/Users/shubhadipmaity/riders/riders_app/app/models/user.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/controllers/v1/admin/user_event_registrations_controller.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/app/models/order.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/views/v1/user_event_regidtrations/index.json.jbuilder",
+		"/Users/shubhadipmaity/riders/riders_app/app/views/v1/admin/user_event_registrations/index.json.jbuilder",
+		"/Users/shubhadipmaity/riders/riders_app/app/views/v1/user_event_regidtrations/show.json.jbuilder",
+		"/Users/shubhadipmaity/riders/riders_app/app/views/v1/admin/user_event_registrations/show.json.jbuilder",
+		"/Users/shubhadipmaity/bewakoof/rails/app/controllers/v1/orders_controller.rb",
+		"/Users/shubhadipmaity/riders/riders_app/db/schema.rb",
+		"/Users/shubhadipmaity/riders/riders_app/db/migrate/20170710101211_user_event_registration.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/controllers/v1/events_controller.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/views/v1/statics/index.json.jbuilder",
+		"/Users/shubhadipmaity/bewakoof/rails/db/migrate/20150427053936_create_orders.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/app/models/order_refund.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/controllers/v1/user_event_registration_controller.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/app/controllers/v1/admin/orders_controller.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/app/controllers/v1/admin/order_refunds_controller.rb",
+		"/Users/shubhadipmaity/riders/riders_app/db/migrate/20170625131215_create_admin_users.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/models/admin_user.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/app/controllers/v1/admin/products_controller.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/app/controllers/v1/products_controller.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/app/controllers/v1/admin/purchase_orders_controller.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/views/v1/events/index.json.jbuilder",
+		"/Users/shubhadipmaity/bewakoof/rails/app/views/v1/admin/vendors/index.json.jbuilder",
+		"/Users/shubhadipmaity/bewakoof/rails/app/controllers/v1/admin/vendors_controller.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/app/views/v1/admin/vendors/show.json.jbuilder",
+		"/Users/shubhadipmaity/bewakoof/rails/config/routes.rb",
+		"/Users/shubhadipmaity/riders/riders_app/config/initializers/unsigned.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/db/migrate/20150423115754_create_products.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/db/migrate/20151125092601_create_pincode_services.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/config/static.yml",
+		"/Users/shubhadipmaity/bewakoof/rails/app/models/product.rb",
+		"/Users/shubhadipmaity/react_all/react/src/components/search_bar.js",
+		"/Users/shubhadipmaity/Desktop/api_request.txt",
+		"/Users/shubhadipmaity/bewakoof/rails/app/controllers/v1/statics_controller.rb",
+		"/Users/shubhadipmaity/riders/riders_app/config/puma.rb",
+		"/Users/shubhadipmaity/riders/riders_app/db/migrate/20170625124210_create_users.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/config/puma.rb",
+		"/Users/shubhadipmaity/riders/riders_app/Gemfile",
+		"/Users/shubhadipmaity/riders/riders_app/app/controllers/v1/password_controller.rb",
+		"/Users/shubhadipmaity/riders/riders_app/config/environment.rb",
+		"/Users/shubhadipmaity/riders/riders_app/config/initializers/redis.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/app/controllers/v1/users_controller.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/config/initializers/redis.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/app/models/user.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/db/migrate/20150423092951_create_users.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/models/concerns/password.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/app/models/concerns/user_observer.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/models/concerns/user_observer.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/Gemfile",
+		"/Users/shubhadipmaity/bewakoof/rails/db/migrate/20150518055954_create_admin_users.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/app/models/concerns/authentication.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/controllers/concerns/password_module.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/app/controllers/v1/authentication_controller.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/app/controllers/concerns/authentication_module.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/app/controllers/v1/admin_controller.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/controllers/v1/admin_controller.rb",
+		"/Users/shubhadipmaity/riders/riders_app/config/initializers/load_config.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/config/initializers/unsigned.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/config/application.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/app/controllers/api_controller.rb",
+		"/Users/shubhadipmaity/bewakoof/rails/config/config.yml",
+		"/Users/shubhadipmaity/riders/riders_app/config/config.yml",
+		"/Users/shubhadipmaity/riders/riders_app/README.md",
+		"/Users/shubhadipmaity/riders/riders_app/config/environments/development.rb",
+		"/Users/shubhadipmaity/riders/riders_app/app/controllers/application_controller.rb",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/router/routeCallbacks.js",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/components/feature.js",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/router/router.js",
+		"/Users/shubhadipmaity/mine/riders_sample/riders_app/app/controllers/v1/admin/users_controller.rb",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/node_modules/color-convert/route.js",
+		"/Users/shubhadipmaity/mine/riders_sample/riders_app/config/routes.rb",
+		"/Users/shubhadipmaity/mine/riders_sample/riders_app/app/views/v1/admin/users/index.json.jbuilder",
+		"/Users/shubhadipmaity/mine/riders_sample/riders_app/app/views/v1/admin/users/show.json.jbuilder",
+		"/Users/shubhadipmaity/mine/riders_sample/riders_app/db/schema.rb",
+		"/Users/shubhadipmaity/mine/riders_sample/riders_app/config/database.yml",
+		"/Users/shubhadipmaity/mine/riders_sample/riders_app/db/migrate/20170625070758_create_users.rb",
+		"/Users/shubhadipmaity/mine/riders_sample/riders_app/config/initializers/unsigned.rb",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/index.js",
+		"/Users/shubhadipmaity/Downloads/react-native-app/app/store.js",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/store.js",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/router.js",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/components/about.js",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/components/HOC/LoaderHOC.js",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/components/HOC/import_calls.js",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/package.json",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/webpack.config.js",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/components/HOC/LoaderHOC.css",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/components/HOC/LoadingHOC.scss",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/actions/index.js",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/lib/productHelper.js",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/components/foo.js",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/constants/api_urls.js",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/components/auth/signin.js",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/components/app.js",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/credentials/access_credentials.js",
+		"/Users/shubhadipmaity/Desktop/scss_to_css/react_app/src/credentials/request_headers.js"
+	],
+	"find":
+	{
+		"height": 52.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"~/riders/riders_app",
+			"~/Desktop/scss_to_css/react_app/src",
+			"~/Desktop/scss_to_css/react_app",
+			"~/riders/riders_app",
+			"~/bewakoof/rails",
+			"~/Desktop/scss_to_css/react_app",
+			"~/Downloads/react-native-app/app",
+			"/Downloads/react-native-app/app",
+			"/Downloads/react-native-app",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/bewakoof2.0/app",
+			"/Users/shubhadipmaity/bewakoof/bewakoof2.0",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/Desktop/students_demo",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/rails/app/models",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin/app/scripts/b-controllers",
+			"/Users/shubhadipmaity/bewakoof/admin/app",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/aasanjobs",
+			"/Users/shubhadipmaity/interview/rocketbox",
+			"/Users/shubhadipmaity/interview/rocketbox_frontend",
+			"/Users/shubhadipmaity/interview/rocketbox",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/interview/rocketbox",
+			"/Users/shubhadipmaity/bewakoof/bewakoof2.0",
+			"/Users/shubhadipmaity/interview/rocketbox_frontend",
+			"/Users/shubhadipmaity/interview/rocketbox/rocketbox_frontend",
+			"/Users/shubhadipmaity/interview/rocketbox",
+			"/Users/shubhadipmaity/bewakoof/rails ",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/bewakoof2.0",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/bewakoof2.0",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/bewakoof2.0",
+			"/Users/shubhadipmaity/bewakoof/rails/",
+			"/Users/shubhadipmaity/bewakoof/admin/",
+			"/Users/shubhadipmaity/bewakoof/rails/",
+			"/Users/shubhadipmaity/bewakoof/rails/app/views/v1/admin/stocks",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/bewakoof2.0",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/bewakoof2.0",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/bewakoof2.0",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/bewakoof2.0",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/bewakoof_bulk",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin/app/scripts/b-controllers",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/bewakoof2.0",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/bewakoof_bulk/rails_bulk",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/bewakoof2.0",
+			"/Users/shubhadipmaity/bewakoof/bewakoof.0",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/bewakoof_bulk/rails_bulk",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/rails/db_operations",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails",
+			"/Users/shubhadipmaity/bewakoof/admin",
+			"/Users/shubhadipmaity/bewakoof/rails"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n            ",
+			"roads:",
+			"roads :",
+			"roads",
+			"BLACK 01",
+			"home",
+			"  ",
+			"contact_us",
+			"MethodOverride",
+			"destroy_session",
+			",",
+			"{",
+			"  \",",
+			"{",
+			"\n",
+			".\n",
+			"– ",
+			"–",
+			"image_url: \"http://lorempixel.com/400/400/\",",
+			"url: \"http://lorempixel.com/400/400/\",",
+			"getBarcodeDetails",
+			"callback",
+			"render_api_error",
+			"order",
+			"order_params",
+			"order",
+			"\"orders\"",
+			"order",
+			"orders",
+			"check_redis_token",
+			"Product",
+			"created_at",
+			"purchase_order",
+			"product",
+			"term",
+			"vendor",
+			"vendors",
+			"vendor",
+			"Vendor",
+			"vendor",
+			"vendors",
+			"vendor_filter",
+			"products",
+			"statics",
+			"\"",
+			"'",
+			"Spiritual",
+			"url",
+			"banner_images",
+			" ",
+			"banner_images",
+			"onVideoSelect",
+			"size_chart",
+			" : ",
+			"\":\"",
+			"?",
+			".",
+			"rails_env",
+			"export",
+			"skip_before_action",
+			"authenticate_user",
+			"serve_static_files",
+			"is_verified",
+			"set_is_verified",
+			"is_verified",
+			"set_is_verified",
+			"is_verif",
+			"redis",
+			"User",
+			"User::Password:",
+			"users",
+			"generate_otp",
+			"verify_otp",
+			"generate_otp",
+			"transfer_cart",
+			"verify_user",
+			"set_inactive_user_in_redis",
+			"v",
+			"strip_whitespace",
+			"freeze",
+			"STATIC",
+			"static",
+			"config",
+			"      \n",
+			"config.de",
+			"config.debug_exception_response_format",
+			"config.debug_exception_response_format = :api",
+			"\"",
+			"hello_msg",
+			"button",
+			"name",
+			"\"",
+			".",
+			"async_component",
+			"renderTextField",
+			"renderFields",
+			"\"",
+			"access_token",
+			"'>",
+			"\"",
+			"')",
+			"\"",
+			"'>",
+			"\"",
+			"API_TOKEN",
+			"catch",
+			"'>",
+			"\"",
+			"'>",
+			"\"",
+			"nextProps",
+			"handleSubmit",
+			"showToastMessage",
+			"def showToastMessage",
+			"isWishlistChecked",
+			"addToWishlist",
+			"callback",
+			"console",
+			"barcodeDetails",
+			"API_TOKEN",
+			",",
+			"message",
+			"\"",
+			"signin",
+			"' ",
+			"\"",
+			"PropTypes.string.isRequired",
+			"propTypes"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/shubhadipmaity/riders/riders_app"
+		},
+		{
+			"path": "/Users/shubhadipmaity/Desktop/Rails_Setup"
+		},
+		{
+			"path": "/Users/shubhadipmaity/Desktop/scss_to_css/react_app"
+		},
+		{
+			"path": "/Users/shubhadipmaity/typescript"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/shubhadipmaity/riders/riders_app/app/models/static.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1076,
+								1089
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Pro.tmTheme",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 310.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/shubhadipmaity/riders/riders_app/config/static.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 33467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15046,
+								15732
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Pro.tmTheme",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/shubhadipmaity/riders/riders_app/config/application.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1375,
+								1417
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Pro.tmTheme",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 382.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/shubhadipmaity/Desktop/scss_to_css/react_app/webpack.config.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Pro.tmTheme",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 279.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/shubhadipmaity/riders/riders_app/app/controllers/v1/statics_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1083,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Pro.tmTheme",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/shubhadipmaity/riders/riders_app/app/views/v1/users/show.json.jbuilder",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 612,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								589,
+								589
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Pro.tmTheme",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/shubhadipmaity/riders/riders_app/app/models/user.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3488,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3476,
+								3476
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai Pro.tmTheme",
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 945.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"static",
+				"riders_app/config/static.yml"
+			],
+			[
+				"user.rb",
+				"riders_app/app/models/user.rb"
+			],
+			[
+				"users/sho",
+				"riders_app/app/views/v1/users/show.json.jbuilder"
+			],
+			[
+				"applica",
+				"riders_app/config/application.rb"
+			],
+			[
+				"statics_c",
+				"riders_app/app/controllers/v1/statics_controller.rb"
+			],
+			[
+				"applicatio",
+				"riders_app/config/application.rb"
+			],
+			[
+				"authen",
+				"riders_app/app/controllers/v1/authentication_controller.rb"
+			],
+			[
+				"routes",
+				"riders_app/config/routes.rb"
+			],
+			[
+				"authentica",
+				"riders_app/app/controllers/concerns/authentication_module.rb"
+			],
+			[
+				"appicaio",
+				"riders_app/config/application.rb"
+			],
+			[
+				"statics_con",
+				"riders_app/app/controllers/v1/statics_controller.rb"
+			],
+			[
+				"stati",
+				"riders_app/config/static.yml"
+			],
+			[
+				"api_controll",
+				"riders_app/app/controllers/api_controller.rb"
+			],
+			[
+				"user_eve",
+				"riders_app/app/models/user_event_registration.rb"
+			],
+			[
+				"secret",
+				"riders_app/config/secrets.yml"
+			],
+			[
+				"product.rb",
+				"riders_app/config/environments/production.rb"
+			],
+			[
+				"event",
+				"riders_app/app/models/event.rb"
+			],
+			[
+				"data",
+				"riders_app/config/database.yml"
+			],
+			[
+				"api_cont",
+				"riders_app/app/controllers/api_controller.rb"
+			],
+			[
+				"users_con",
+				"riders_app/app/controllers/v1/users_controller.rb"
+			],
+			[
+				"stat",
+				"config/static.yml"
+			],
+			[
+				"statics",
+				"app/controllers/v1/statics_controller.rb"
+			],
+			[
+				"cretae_",
+				"db/migrate/20170705190722_create_events.rb"
+			],
+			[
+				"user_ev",
+				"app/models/user_event_registration.rb"
+			],
+			[
+				"api_con",
+				"app/controllers/api_controller.rb"
+			],
+			[
+				"user_event",
+				"app/models/user_event_registration.rb"
+			],
+			[
+				"create_eve",
+				"db/migrate/20170705190722_create_events.rb"
+			],
+			[
+				"users/show",
+				"app/views/v1/users/show.json.jbuilder"
+			],
+			[
+				"user",
+				"riders_app/app/models/user.rb"
+			],
+			[
+				"api_controller",
+				"riders_app/app/controllers/api_controller.rb"
+			],
+			[
+				"order.rb",
+				"rails/app/models/order.rb"
+			],
+			[
+				"user_registra",
+				"riders_app/app/controllers/v1/user_event_registrations_controller.rb"
+			],
+			[
+				"orders_controll",
+				"rails/app/controllers/v1/orders_controller.rb"
+			],
+			[
+				"order_refun",
+				"rails/app/models/order_refund.rb"
+			],
+			[
+				"schema",
+				"riders_app/db/schema.rb"
+			],
+			[
+				"create_orders",
+				"rails/db/migrate/20150427053936_create_orders.rb"
+			],
+			[
+				"registrat",
+				"riders_app/db/migrate/20170710101211_user_event_registration.rb"
+			],
+			[
+				"events_con",
+				"riders_app/app/controllers/v1/events_controller.rb"
+			],
+			[
+				"statics_contro",
+				"riders_app/app/controllers/v1/statics_controller.rb"
+			],
+			[
+				"statics/index",
+				"riders_app/app/views/v1/statics/index.json.jbuilder"
+			],
+			[
+				"static.rb",
+				"riders_app/app/models/static.rb"
+			],
+			[
+				"order_refunds_co",
+				"rails/app/controllers/v1/admin/order_refunds_controller.rb"
+			],
+			[
+				"orders_con",
+				"rails/app/controllers/v1/admin/orders_controller.rb"
+			],
+			[
+				"eventsc",
+				"riders_app/app/controllers/v1/events_controller.rb"
+			],
+			[
+				"router",
+				"riders_app/config/routes.rb"
+			],
+			[
+				"event/show",
+				"riders_app/app/views/v1/events/show.json.jbuilder"
+			],
+			[
+				"sta",
+				"riders_app/app/models/static.rb"
+			],
+			[
+				"events/show",
+				"riders_app/app/views/v1/events/show.json.jbuilder"
+			],
+			[
+				"create",
+				"riders_app/db/migrate/20170705190722_create_events.rb"
+			],
+			[
+				"create_events",
+				"riders_app/db/migrate/20170705190722_create_events.rb"
+			],
+			[
+				"create_ad",
+				"riders_app/db/migrate/20170625131215_create_admin_users.rb"
+			],
+			[
+				"products_controller",
+				"rails/app/controllers/v1/admin/products_controller.rb"
+			],
+			[
+				"products_controll",
+				"rails/app/controllers/v1/products_controller.rb"
+			],
+			[
+				"purchase_orders_con",
+				"rails/app/controllers/v1/admin/purchase_orders_controller.rb"
+			],
+			[
+				"orders_controller",
+				"rails/app/controllers/v1/admin/orders_controller.rb"
+			],
+			[
+				"vendors/index",
+				"rails/app/views/v1/admin/vendors/index.json.jbuilder"
+			],
+			[
+				"vendors/show.json",
+				"rails/app/views/v1/admin/vendors/show.json.jbuilder"
+			],
+			[
+				"vendors_",
+				"rails/app/controllers/v1/admin/vendors_controller.rb"
+			],
+			[
+				"vendor_con",
+				"rails/app/controllers/v1/admin/vendors_controller.rb"
+			],
+			[
+				"products_con",
+				"rails/app/controllers/v1/products_controller.rb"
+			],
+			[
+				"evetnt",
+				"riders_app/app/controllers/v1/events_controller.rb"
+			],
+			[
+				"create_products",
+				"rails/db/migrate/20150423115754_create_products.rb"
+			],
+			[
+				"unsgin",
+				"riders_app/config/initializers/unsigned.rb"
+			],
+			[
+				"create_pincode",
+				"rails/db/migrate/20151125092601_create_pincode_services.rb"
+			],
+			[
+				"create_evets",
+				"riders_app/db/migrate/20170705190722_create_events.rb"
+			],
+			[
+				"static.yml",
+				"riders_app/config/static.yml"
+			],
+			[
+				"static.",
+				"riders_app/app/models/static.rb"
+			],
+			[
+				"static_controll",
+				"riders_app/app/controllers/v1/statics_controller.rb"
+			],
+			[
+				"statics/inde",
+				"riders_app/app/views/v1/statics/index.json.jbuilder"
+			],
+			[
+				"static.ym",
+				"rails/config/static.yml"
+			],
+			[
+				"static_con",
+				"rails/app/controllers/v1/statics_controller.rb"
+			],
+			[
+				"static_controller",
+				"riders_app/app/controllers/v1/statics_controller.rb"
+			],
+			[
+				"statics_",
+				"rails/app/controllers/v1/statics_controller.rb"
+			],
+			[
+				"authentication",
+				"riders_app/app/controllers/concerns/authentication_module.rb"
+			],
+			[
+				"create_user",
+				"riders_app/db/migrate/20170625124210_create_users.rb"
+			],
+			[
+				"puma",
+				"riders_app/config/puma.rb"
+			],
+			[
+				"config/routes",
+				"riders_app/config/routes.rb"
+			],
+			[
+				"uthent",
+				"riders_app/app/controllers/concerns/authentication_module.rb"
+			],
+			[
+				"secrets",
+				"riders_app/config/secrets.yml"
+			],
+			[
+				"gemfile",
+				"riders_app/Gemfile"
+			],
+			[
+				"productio",
+				"config/environments/production.rb"
+			],
+			[
+				"pas",
+				"app/controllers/v1/password_controller.rb"
+			],
+			[
+				"config/envi",
+				"config/environment.rb"
+			],
+			[
+				"user.r",
+				"riders_app/app/models/user.rb"
+			],
+			[
+				"redis",
+				"rails/config/initializers/redis.rb"
+			],
+			[
+				"redi",
+				"riders_app/config/initializers/redis.rb"
+			],
+			[
+				"user_obse",
+				"rails/app/models/concerns/user_observer.rb"
+			],
+			[
+				"create_admin_user",
+				"riders_app/db/migrate/20170625131215_create_admin_users.rb"
+			],
+			[
+				"create_users",
+				"rails/db/migrate/20150423092951_create_users.rb"
+			],
+			[
+				"authentic",
+				"rails/app/models/concerns/authentication.rb"
+			],
+			[
+				"auth",
+				"rails/app/controllers/v1/authentication_controller.rb"
+			],
+			[
+				"authent",
+				"rails/app/controllers/concerns/authentication_module.rb"
+			],
+			[
+				"authenticat",
+				"riders_app/app/controllers/v1/authentication_controller.rb"
+			],
+			[
+				"authentcia",
+				"riders_app/app/controllers/v1/authentication_controller.rb"
+			],
+			[
+				"admin_con",
+				"rails/app/controllers/v1/admin_controller.rb"
+			],
+			[
+				"admin_contr",
+				"riders_app/app/controllers/v1/admin_controller.rb"
+			],
+			[
+				"users_controller",
+				"rails/app/controllers/v1/users_controller.rb"
+			],
+			[
+				"users_conr",
+				"rails/app/controllers/v1/users_controller.rb"
+			],
+			[
+				"unsi",
+				"rails/config/initializers/unsigned.rb"
+			],
+			[
+				"unsigned",
+				"rails/config/initializers/unsigned.rb"
+			],
+			[
+				"ge",
+				"riders_app/Gemfile"
+			],
+			[
+				"application",
+				"riders_app/config/application.rb"
+			],
+			[
+				"config.yml",
+				"rails/config/config.yml"
+			],
+			[
+				"api",
+				"rails/app/controllers/api_controller.rb"
+			],
+			[
+				"database",
+				"riders_app/config/database.yml"
+			],
+			[
+				"application_controller",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"config/applica",
+				"config/application.rb"
+			],
+			[
+				"routes.rb",
+				"riders_app/config/routes.rb"
+			],
+			[
+				"service",
+				"src/components/service.js"
+			],
+			[
+				"api_urls",
+				"src/constants/api_urls.js"
+			],
+			[
+				"api_ur",
+				"src/constants/api_urls.js"
+			],
+			[
+				"foo.js",
+				"src/components/foo.js"
+			],
+			[
+				"package",
+				"react_app/package.json"
+			],
+			[
+				"actions/index",
+				"react_app/src/actions/index.js"
+			],
+			[
+				"productt",
+				"react_app/src/components/dummy_components/product_tag.js"
+			],
+			[
+				"service.js",
+				"react_app/src/components/service.js"
+			],
+			[
+				"index.js",
+				"react_app/src/index.js"
+			],
+			[
+				"signin.js",
+				"react_app/src/components/auth/signin.js"
+			],
+			[
+				"database_oper",
+				"rails/config/database_operations.yml"
+			],
+			[
+				"pre_split_wallet.rb",
+				"rails/lib/pre_split_wallet.rb"
+			],
+			[
+				"authentia",
+				"admin/app/scripts/b-services/authentication.js"
+			],
+			[
+				"config.js",
+				"admin/app/scripts/config/config.js"
+			],
+			[
+				"category-de",
+				"admin/app/scripts/b-controllers/category-details.js"
+			],
+			[
+				"app/scripts/b-controllers/category-details.js",
+				"admin/app/scripts/b-controllers/category-details.js"
+			],
+			[
+				"mobilecover-pac",
+				"admin/app/views/b-tmpl/mobilecover-pack.html"
+			],
+			[
+				"order-return",
+				"admin/app/views/b-tmpl/orders-return.html"
+			],
+			[
+				"order-view",
+				"admin/app/views/b-tmpl/order-view.html"
+			],
+			[
+				"mobilecover-ac",
+				"admin/app/views/b-tmpl/mobilecover-pack.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/myBlog.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 330.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
